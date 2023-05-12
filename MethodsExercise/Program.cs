@@ -15,14 +15,18 @@
 
         public static void PrintStory()
         {
-            Console.WriteLine("what is your name?");
+            Console.WriteLine($"what is your name?");
             var username = Console.ReadLine();
-            Console.WriteLine($"Hello, {username}, what is your favorite color");
-            var color = Console.ReadLine();
-            Console.WriteLine("what is your favorite animal");
-            var animal = Console.ReadLine();
-            Console.WriteLine("what is your favorite band");
-            var band = Console.ReadLine();
+            Console.WriteLine($"Hello, {username}, what is your Favorite Color?");
+            var FavoriteColor = Console.ReadLine();
+            Console.WriteLine($"favorite animal?");
+            var FavoriteAnimal = Console.ReadLine();
+            Console.WriteLine($"favorite band?");
+            var FavoriteBand = Console.ReadLine();
+         
+
+          
+            Console.WriteLine($"one day {username} was walking in the woods and saw his {FavoriteAnimal} that was his favorite color {FavoriteColor} with is favorite band {FavoriteBand}");
         }
 
         public static int AddNums(int num1, int num2)
